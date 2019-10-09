@@ -1,0 +1,83 @@
+<!doctype html>
+<!--suppress ALL -->
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Resume</title>
+  <link rel="stylesheet" href="css/resume.css">
+  <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+   <script src="js/vendor/jquery-3.4.1.min.js"></script>
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+
+
+  <script>
+      $(function(){
+          $("button").click(function(){
+              //$("p").css("color", "red");
+              $('p span.aa').css('color','red');
+              //$('p span').css({color:'red', 'font-size':'14px'});
+          });
+      });
+  </script>
+
+</head>
+
+  <script>
+    let age = false;
+
+       (age) ? T() : F();
+
+      function T() {
+          console.log("true");
+      }
+      function F() {
+          console.log("false");
+      }
+    b= {'aa':'11','bb':'22','cc':{'dd':'33'}};
+    console.log(b.cc.dd);
+    let e = JSON.parse(JSON.stringify(b));
+    console.log(e.cc.dd);
+    e.cc.dd = 'dog';
+    console.log(b.cc.dd);
+    console.log(e.cc.dd);
+  </script>
+
+
+<body>
+
+  <div class="Flex-con">
+  <div class="a">
+    1233333333333333333333333
+    55555555555555555
+    55555555555555555555555555
+  </div>
+
+  <div class="a">
+    1233333333333333333333333
+    55555555555555555
+    55555555555555555555555555
+    55555555555555555555555555555
+  </div>
+
+  <div class="a">
+    1233333333333333333333333
+    55555555555555555
+    55555555555555555555555555
+    55555555555555555555555555555
+    5555555555555
+  </div>
+  </div>
+
+  <button>Set the color property of all p elements</button>
+
+  <p>This is a paragraph.</p>
+  <p>This is another paragraph.</p>
+  <p>
+    <span class="aa"> Item 1 </span>
+    <span> Item 2 </span>
+  </p>
+
+</body>
+
+</html>
